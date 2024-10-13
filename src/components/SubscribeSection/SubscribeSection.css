@@ -1,0 +1,115 @@
+.subscribe {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.subscribe h2 {
+    color: #43121d;
+    margin: 70px 0 40px 0;
+    font-size: 36px;
+    width: 100%;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.subscribe .row div {
+    margin-bottom: 20px;
+}
+
+.subscribe .row p {
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.subscribe input {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    width: 30%;
+    margin-right: 30px;
+    border: none;
+    border-radius: 0px;
+    background: transparent;
+    border: 3px solid #e5e5e5;
+    color: #000;
+    font-weight: 700;
+}
+
+.subscribe button {
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    transition: .3s ease;
+}
+
+.subscribe a {
+    color: white;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.subscribe button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.subscribe button:hover a {
+    color: #77132b;
+    transition: .2s ease;
+}
+
+.subscribe button:hover {
+    background-color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .subscribe input {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .subscribe button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .subscribe h2 {
+        font-size: 28px;
+        margin: 50px 0 30px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .subscribe input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .subscribe button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .subscribe h2 {
+        font-size: 24px;
+        margin: 40px 0 20px 0;
+    }
+}

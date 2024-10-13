@@ -1,0 +1,41 @@
+/* Custom styles for Nav component */
+.navbar {
+    /* background-color: #fff; */
+    padding: 20px 0;
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    z-index: 1;
+    height: auto;
+    max-width: 100%;
+    border-radius: 0px;
+    /* margin: 0 80px; */
+}
+
+.navbar-nav .nav-link {
+    color: #a82d49; 
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+    letter-spacing: 1.5px;
+}
+
+/* .navbar-nav .nav-link:hover {
+    color: rgb(200, 50, 80); 
+} */
+nav img{
+    width: 100%;
+    height: auto;
+}
+nav #phone{
+    border: 1px solid #a82d49;
+    background-color: #a82d49;
+    color: #fff;
+    box-sizing: border-box;
+}
+nav #phone:hover{
+    color: #c83250;
+    background-color: #fff;
+    transition: .2s ease-in-out;
+}

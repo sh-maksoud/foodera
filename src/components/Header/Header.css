@@ -1,0 +1,145 @@
+header {
+    background-image: url("/images/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    padding: 20px; 
+    overflow: hidden;
+    text-align: left;
+    margin: 0;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+header .row {
+    margin: 10px 0;
+    width: 100%;
+}
+
+header h2 {
+    color: #43121d;
+    font-size: 48px; 
+    line-height: 56px;
+    font-weight: bold;
+    width: 100%;
+}
+
+header p {
+    color: #555;
+    font-size: 18px; 
+    margin: 15px 0;
+    width: 50%;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+header button {
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 10px 15px; 
+    font-size: 14px; 
+    font-weight: bold;
+    margin: 15px 5px 15px 0;
+    width: auto; 
+    min-width: 150px; 
+    height: auto; 
+    text-align: center;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+}
+
+header button:hover {
+    background-color: #fff;
+    color: #a82d49;
+    transition: 0.5s;
+}
+
+header button:last-of-type {
+    background-color: #fff;
+    color: black;
+    border: 3px solid #fff;
+    margin-left: 10px;
+}
+
+header button:last-of-type:hover {
+    color: #a82d49;
+    border: 3px solid #a82d49;
+}
+
+header button span.fa,
+header button i.fas {
+    margin-left: 10px; 
+    font-size: 15px; 
+    vertical-align: middle;
+}
+
+header button .fa-shopping-basket {
+    color: #ffffff; 
+}
+
+header button:first-of-type {
+    background-color: #a82d49;
+}
+
+header button:last-of-type:hover,
+header button:first-of-type:hover {
+    color: #a82d49;
+    background-color: #fff;
+    border: 3px solid #a82d49;
+}
+
+header button:last-of-type:hover,
+header button:hover .fa-shopping-basket {
+    color: #a82d49;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h2 {
+        font-size: 36px; 
+        line-height: 42px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    header button {
+        font-size: 12px;
+        padding: 8px 12px;
+        width: auto;
+        min-width: 120px;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    header h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    header button {
+        font-size: 12px;
+        padding: 6px 10px;
+        min-width: 100px;
+    }
+}
+
+
+

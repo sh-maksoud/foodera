@@ -1,0 +1,137 @@
+/* Base styles for .intro and .intro2 */
+.intro , .intro2 {
+    padding: 25px 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 60px 0;
+}
+
+.intro .row , .intro2 .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.intro .col-md-6 , .intro2 .col-md-6 {
+    flex: 0 0 48%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.intro h2 , .intro2 h2 {
+    font-size: 35px;
+    line-height: 50px;
+    color: #43121d;
+    font-weight: 700;
+    font-family: 'Tajwal', sans-serif;
+    width: 70%;
+    margin: 10px 0;
+}
+
+.intro p , .intro2 p {
+    color: #555;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    width: 70%;
+    margin-top: 15px;
+}
+
+.intro button , .intro2 button {
+    display: inline-block;
+    text-align: center;
+    background-color: #a82d49;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Tajwal', sans-serif;
+    margin: 20px 0;
+    text-transform: capitalize;
+    padding: 11px 28px;
+    box-sizing: border-box;
+}
+
+.intro button:hover , .intro2 button:hover {
+    background-color: transparent;
+    border: 1px solid #a82d49;
+    color: #a82d49;
+    transition: .4s ease;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.intro img , .intro2 img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.intro2 .list {
+    margin: 30px 0;
+    padding: 0;
+}
+
+.intro2 .list li {
+    display: flex;
+    align-items: center;
+    color: #555;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    width: 70%;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+.intro2 .list li i {
+    margin-right: 10px;
+    color: #a82d49;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .intro .col-md-6 , .intro2 .col-md-6 {
+        flex: 0 0 100%; 
+        margin-bottom: 20px;
+    }
+
+    .intro h2 , .intro2 h2 {
+        font-size: 28px;
+        line-height: 40px;
+        width: 100%; 
+    }
+
+    .intro p , .intro2 p {
+        font-size: 14px;
+        width: 100%; 
+    }
+
+    .intro button , .intro2 button {
+        width: 100%; 
+        padding: 10px 20px;
+    }
+
+    .intro2 .list li {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .intro h2 , .intro2 h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .intro p , .intro2 p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}

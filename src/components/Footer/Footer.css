@@ -1,0 +1,86 @@
+.footer {
+    background-color: #a82d49;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 0 20px 0;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer ul li {
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 15px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.footer .form-control {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 3px solid #e5e5e5;
+    color: #000;
+    background: transparent;
+}
+
+.footer .col-form-label {
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    background: #a82d49;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-text-white {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icon {
+    background-color: transparent;
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:focus {
+    outline: none;
+}
+
+.social-icon:active {
+    transform: scale(1);
+}
+
+.rights-text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+}

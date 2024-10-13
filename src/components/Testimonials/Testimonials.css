@@ -1,0 +1,142 @@
+.sliderX {
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  margin: 5px 0;
+}
+
+.sliderX h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 10px 0;
+  width: 100%;
+  color: white;
+  line-height: 50px;
+}
+
+.sliderX .carousel {
+  background: white;
+  border-radius: 10px;
+  margin: 40px auto;
+  padding: 25px 0;
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 80%;
+}
+
+.sliderX .carousel img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+
+.sliderX .carousel-caption {
+  position: static;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sliderX .carousel-caption p {
+  color: #212121;
+  font-size: 17px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.sliderX .carousel-caption span {
+  color: #77132b;
+  display: block;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.sliderX .carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sliderX .carousel-indicators button {
+  width: 15px;
+  height: 5px;
+  background-color: #77132b;
+  border: 1px solid #77132b;
+  margin: 5px;
+}
+
+.sliderX .carousel-control-prev,
+.sliderX .carousel-control-next {
+  background-color: #a82d49;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sliderX .carousel-control-prev-icon,
+.sliderX .carousel-control-next-icon {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+
+.sliderX .carousel-control-prev-icon::after,
+.sliderX .carousel-control-next-icon::after {
+  font-size: 20px;
+  color: #77132b;
+}
+
+.sliderX .carousel-control-prev {
+  left: 15px;
+}
+
+.sliderX .carousel-control-next {
+  right: 15px;
+}
+
+.sliderX .carousel-control-prev:hover,
+.sliderX .carousel-control-next:hover {
+  color: #77132b;
+}
+
+@media (max-width: 768px) {
+  .sliderX h2 {
+    font-size: 30px; 
+  }
+
+  .sliderX .carousel img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderX h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .sliderX .carousel {
+    width: 95%;
+  }
+
+  .sliderX .carousel img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .sliderX .carousel-caption p {
+    font-size: 15px;
+  }
+
+  .sliderX .carousel-caption span {
+    font-size: 15px;
+  }
+}

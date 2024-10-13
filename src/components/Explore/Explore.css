@@ -1,0 +1,78 @@
+.explore{
+    width: 100%;
+    height: auto;
+    margin: 10px 20px;
+    padding: 25px 0;
+    margin-top: 50px;
+}
+.explore h2{
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    text-align: center;
+}
+.explore p{    
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 0 14%;
+    font-size: 16px;
+    text-align: center;
+}
+.card .card-title{
+    color: #43121d;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card .card-text:first-child{
+    color: #555;
+    line-height: 30px;
+    font-weight: 400;   
+}
+.card .card-text:last-child{
+    color: #a82d49;
+    line-height: 30px;
+    font-weight: 400;   
+    letter-spacing: 0.5px;
+}
+.col-md-4 button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Tajwal', sans-serif;
+    margin: 20px 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    transition: .3s ease-in-out;
+}
+.col-md-4 button:hover{
+    background-color: transparent;
+    border: 1px solid #a82d49;
+    color: #a82d49;
+    transition: .4s ease;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    transition: .2s ease;
+}
+.price-wrap{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+.price-wrap .price-old{
+    color: #999;
+}
+.price-wrap .price-new{
+    color: #a82d49;
+    font-weight: bold;
+}
